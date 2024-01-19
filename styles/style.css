@@ -1,0 +1,63 @@
+body{
+    background-color: whitesmoke;
+}
+
+.nav-link.mx-3:hover{
+    background-color: #040462;
+    color: lightgreen;
+}
+
+.carousel-inner img:hover{
+    width: 80%;
+    background-color: rebeccapurple;
+}
+
+.card-img-top.img-fluid{
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+#welcome-1{
+    background-color: rgb(242, 171, 38);
+    color: rgb(10, 10, 110);
+    padding:20px;
+    position:absolute;
+    top: 30%;
+    left: 100;
+    /* margin-left: 20%; */
+    font-weight: 800px;
+}
+
+#bungkus-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #040462;
+    color: lightgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+#bungkus-button:hover{
+  cursor: pointer;
+}
+
+#banner-title{
+    color: #040462;
+}
+
+.card-deck.p-1 img:hover{
+    background-color: rgb(198, 198, 4);
+    opacity: 0.8;
+}
+
+#card-worker:hover{
+    background-color: rgb(198, 198, 4);
+    opacity: 0.8;
+}
+
+.kartu-porto.card-body:hover{
+    background-color: lightgreen;
+    color: #040462;
+    cursor:pointer
+}
