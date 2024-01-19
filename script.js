@@ -86,4 +86,12 @@ function deleteTodo(id){
 
 function myFunction(){
     document.getElementById('form').remove();
+    let formSubmission = `
+        <div class="mb-3 row">
+            <div class="col text-center text-light bg-primary p-5">
+            <p>Thank you for your submission!</p>
+            </div>
+        </div>
+    `
+    document.getElementById('emptyBox').innerHTML = formSubmission
 }

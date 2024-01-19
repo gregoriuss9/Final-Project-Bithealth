@@ -24,15 +24,24 @@ body{
     padding:20px;
     position:absolute;
     top: 30%;
-    left: 100;
-    /* margin-left: 20%; */
+    left: 200px;
+    font-weight: 800px;
+}
+
+#welcome-2{
+    background-color: rgb(242, 171, 38);
+    color: white;
+    padding:20px;
+    position:absolute;
+    top: 45%;
+    left: 200px;
     font-weight: 800px;
 }
 
 #bungkus-button{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left:200px;
     background-color: #040462;
     color: lightgreen;
     padding: 10px;
@@ -51,10 +60,12 @@ body{
     opacity: 0.8;
 }
 
-#card-worker:hover{
+.about-us-photo.img-fluid:hover{
     background-color: rgb(198, 198, 4);
     opacity: 0.8;
+    border-radius: 50%;
 }
+
 
 .kartu-porto.card-body:hover{
     background-color: lightgreen;
